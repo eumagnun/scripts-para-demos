@@ -1,6 +1,6 @@
 # scripts-para-demos
 
-##oracle
+## oracle
 * 1 - Rodar imagem docker oficial do Oracle XE:
 
 ```
