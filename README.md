@@ -17,14 +17,7 @@ CREATE USER c##demo IDENTIFIED BY demo123;
 GRANT ALL PRIVILEGES TO c##demo;
 /
 
-```
-
-* 3 - Executar scripts para criação de usuário, criação de objetos e carga de dados:
-```
-@1_create_user.sql
-```
-
-* 4 - Logar com o novo usuário e executar o scripts conforme abaixo:
+* 3 - Logar com o novo usuário e executar o scripts conforme abaixo:
 ```
 @2_create_objects.sql
 @3_load_data.sql
