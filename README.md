@@ -1,6 +1,7 @@
 # scripts-para-demos
 
 ## oracle
+
 * 1 - Rodar imagem docker oficial do Oracle XE:
 
 ```
@@ -9,7 +10,16 @@ sudo docker run --name myoracledb \
 -e ORACLE_PWD=Demo123% \
 container-registry.oracle.com/database/express:21.3.0-xe
 ```
-* 2 - Executar scripts para criação de usuário, criação de objetos e carga de dados:
+* 2 - criar novo usuário/schema
+```
+CREATE USER c##demo IDENTIFIED BY demo123;
+/
+GRANT ALL PRIVILEGES TO c##demo;
+/
+
+```
+
+* 3 - Executar scripts para criação de usuário, criação de objetos e carga de dados:
 ```
 https://github.com/eumagnun/scripts-para-demos/tree/main/oracle
 ```
