@@ -16,7 +16,7 @@ CREATE USER c##demo IDENTIFIED BY demo123;
 /
 GRANT ALL PRIVILEGES TO c##demo;
 /
-
+```
 * 3 - Logar com o novo usuário e executar o scripts conforme abaixo:
 ```
 @2_create_objects.sql
